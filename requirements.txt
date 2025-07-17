@@ -1,0 +1,13 @@
+# Python version
+python>=3.8
+
+# Core dependencies
+streamlit>=1.15.0
+langchain>=0.0.267
+langchain-community>=0.0.2
+langchain-groq>=0.1.0
+chromadb
+sentence-transformers>=2.2.2
+
+# Dev tools (recommended)
+python-dotenv>=1.0.0     # for loading GROQ_API_KEY from .env
